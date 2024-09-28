@@ -35,6 +35,7 @@ __all__ = ['pnglatex']
 
 _BINARIES = ('pdflatex', 'pdfcrop', 'pdf2ppm', 'pnm2png')
 _TEX_BP = """\\documentclass{{article}}
+\\usepackage{{textcomp, amsmath, amssymb}}
 \\thispagestyle{{empty}}
 \\begin{{document}}
 {}
